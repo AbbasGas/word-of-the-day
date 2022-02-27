@@ -1,7 +1,7 @@
 import express from 'express'
 import bodyParser from 'body-parser'
 
-import wordDayRoutes from './routes/index.js'
+import wordDayRoutes from './src/routes/index.js'
 
 const app = express()
 app.set('port', process.env.PORT || 3000)
