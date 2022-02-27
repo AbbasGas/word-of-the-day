@@ -11,7 +11,32 @@ An API of the word of the day using Web Scrapping through the Cheerio library
 - axios - Promise based HTTP client for the browser and node.js
 - ESLint
 
-## Set Up
+## Getting Started
+
+Prerequisites
+
+- git
+- node.js
+
+Installation
+
+1. Clone the repository
+
+```bash
+https://github.com/spiedra/word-of-the-day.git
+```
+
+2. Install npm packages
+
+```bash
+$ npm install
+```
+
+3. Run the project
+
+```bash
+$ npm start
+```
 
 ## Contributing
 
