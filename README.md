@@ -1,13 +1,14 @@
 # EN-dictionary
 
-An API of the word of the day using Web Scrapping through the Cheerio library
-
 ## About
+
+An API of the word of the day using Web Scrapping through the Cheerio library
 
 ## Teach Stack
 
 - ExpressJS - Node.js web application framework
 - Cheerio - Web Scrapping
+- axios - Promise based HTTP client for the browser and node.js
 - ESLint
 
 ## Set Up
