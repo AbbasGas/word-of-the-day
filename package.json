@@ -1,0 +1,16 @@
+{
+  "name": "word-of-the-day",
+  "version": "1.0.0",
+  "description": "An API of the word of the day using Web Scrapping through the Cheerio library",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
