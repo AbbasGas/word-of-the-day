@@ -23,7 +23,7 @@ Installation
 1. Clone the repository
 
 ```bash
-https://github.com/spiedra/word-of-the-day.git
+git clone https://github.com/spiedra/word-of-the-day.git
 ```
 
 2. Install npm packages
