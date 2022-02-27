@@ -17,8 +17,13 @@ export const getWordDay = async (req, res) => {
     const category = $(wordData).eq(0).text().trim()
     const meaning = $(wordData).eq(1).text().trim()
 
-    res.json({ word: word.text(), category: category, meaning: meaning })
+    res.json({
+      status: 200,
+      word: word.text(),
+      category: category,
+      meaning: meaning
+    })
   } catch (error) {
-    res.json({ msg: error })
+    res.json({ status: 500, message: error })
   }
 }
