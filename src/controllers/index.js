@@ -1,7 +1,7 @@
 import * as cheerio from 'cheerio'
 import axios from 'axios'
 
-export const getWordDay = async (req, res) => {
+export const getWordDay = async (req, res, next) => {
   try {
     const url = 'https://www.dictionary.com/e/word-of-the-day/'
 
